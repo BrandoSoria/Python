@@ -4,6 +4,6 @@
 gas = False
 encendido = True
 edad = 18
-
-if not gas and (encendido or edad > 17):
+# se ejecutan de izq a der
+if not gas or (encendido or edad > 17):
     print("puedes avanzar")
