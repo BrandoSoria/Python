@@ -4,9 +4,10 @@
 #     print(numero)
 #     numero *=2
 
-#muestra los que teclea el usuario
+#loop infinito
 comando = ""
-while comando.lower() != "salir":
+while True:
     comando = input("$ ")
     print(comando)
-    
+    if comando.lower() == "salir":
+        break
