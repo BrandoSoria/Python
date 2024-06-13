@@ -6,3 +6,8 @@ for numero in range(5):
         break
 else:
     print("no encontrado")
+
+#iterar una cadena
+for char in "Ultimate Python":
+    print(char)
+    
