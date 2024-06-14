@@ -6,5 +6,23 @@ def hola(nombre, apellido= "soria"):
 hola("brandon", "gonzalez")
 hola("nicolas" )
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# asi nombro argumentos de la funcion
+hola(apellido="gonzalez", nombre="manuel")
+
 # el parametro apellido que tiene el valor por defecto es opcional
 # y si no se le pasa un valor para el argumento se toma el valor por defecto del parametro
