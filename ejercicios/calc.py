@@ -4,12 +4,6 @@
 # que ingrese el segundo valor
 # que imprima el resultado
 # que ingrese nuevos valores o salga del programa
-
-
-
-inicio= True
-
-
 while True:
     s = input("que haras hoy: ")
     if s.lower() == "salir":
@@ -20,18 +14,19 @@ while True:
         n1 =input("digite el primer valor: ")
         n1= int(n1)
 
-    operacion = input("digite la operacion: ")
-    n2 =input("digite el segundo valor: ")
-    n2= int(n2)
-    
-    if operacion == "+":
-        print(n1 + n2)
-    elif operacion == "-":
-        print(n1 - n2)
-    elif operacion == "*":
-        print(n1 * n2)
-    elif operacion == "/":
-        print(n1 / n2)
-    else:
-        print("la operacion no es valida")
-        break
+        operacion = input("digite la operacion: ")
+        n2 =input("digite el segundo valor: ")
+        n2= int(n2)
+        
+        if operacion == "+":
+            print(n1 + n2)
+        elif operacion == "-":
+            print(n1 - n2)
+        elif operacion == "*":
+            print(n1 * n2)
+        elif operacion == "/":
+            print(n1 / n2)
+        else:
+            print("la operacion no es valida")
+            break
+
