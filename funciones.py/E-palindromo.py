@@ -15,8 +15,10 @@ def reverse (texto):
 def espalindromo(texto):
     texto = no_space(texto)
     texto_alreves = reverse(texto)
-    print(texto_alreves)
     return texto.lower() == texto_alreves.lower()
+    print(texto_alreves)
 
-        
-print(espalindromo("osa"))
+#boolean
+print("escribe un palabra")
+palabra = input()
+print(espalindromo(palabra))
