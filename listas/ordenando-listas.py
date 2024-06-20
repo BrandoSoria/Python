@@ -13,12 +13,12 @@ print(numeros2)
 usuarios= [
     [4,"pedro"],
     [3,"juan"],
-    [2,"maria"]
+    [1,"maria"]
     ]
 
-def ordenar(elemento):
-    return elemento[1]
 
-#ordenar usuarios por el numero de "id"
-usuarios.sort(key=ordenar)
+
+
+#funcion lambda para ordenar y el es como alias del parametro elemento esta ordenando por letra de a-z
+usuarios.sort(key=lambda el: el[1])
 print(usuarios)
