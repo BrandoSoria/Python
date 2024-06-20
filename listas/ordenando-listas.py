@@ -9,13 +9,11 @@ numeros=[5,4,3,2,1,0,-1,-2,-3,-4,-5]
 numeros2 = sorted(numeros)
 print(numeros)
 print(numeros2)
-
 usuarios= [
-    [4,"pedro"],
-    [3,"juan"],
-    [1,"maria"]
+    ["pedro",4],
+    ["juan",3],
+    ["maria",1]
     ]
-
 
 
 
